@@ -146,11 +146,41 @@
 			<!-- Work Experience -->
 
 			<div class="work" id="work">
-				<div class="container">
+				<!-- <div class="container"> -->
 					<h1 class="text-center"> Work Experience </h1>
-					<div class="row">
-						<div class="col-md-6">
-							<ul class="timeline">
+					<div class="wrapper">
+						<div class="timeline-area">
+							<div class="line-area"></div>
+							<div class="single-item active">
+									<span>2018</span>
+									<div class="img-area">
+										<a href="#">
+											<img src="img/CI.png" alt="" width="150" height="90">
+											<span>CI Capital</span>
+										</a>
+									</div>
+							</div>
+							<div class="single-item">
+									<span>2020-Present</span>
+									<div class="img-area">
+										<a href="#">
+											<img src="img/econ.png" alt="" width="100" height="100">
+											<span>Emory Economics Department</span>
+										</a>
+									</div>
+							</div>
+						</div> 
+						</div>
+						
+						<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/query/3.4.1//jquery.min.js"></script>
+						<script>
+							$(".wrapper .single-item > span").on("mouseenter mouseleave", function(e){
+								$(".wrapper .single-item.active").removeClass("active");
+								 $(this).parent().addClass("active");
+							})
+						</script>
+						<!-- <div class="col-md-6"> -->
+							<!-- <ul class="timeline">
 								<li>
 									<h4><span>2020 - </span> Research Assistant - Emory Economics Department</h4>
 									<p>
@@ -180,7 +210,7 @@
 									</p>
 								</li>
 
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
