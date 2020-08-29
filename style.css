@@ -161,6 +161,9 @@ body
 	margin-right: 130px;
 }
 
+.work-text{
+	background: #6c6e6b;
+}
 /*.about
 {
 	padding-top: 100px;
@@ -493,20 +496,58 @@ body
 
 /*-----------------Education-------------------*/
 
+/*.education
+{
+	padding-top: 100px;
+	margin-bottom: -130px;
+	background: #131316;
+}
+
+
+
+.emory-img
+{
+	height: 300px;
+	width: 500px;
+	display: block;
+	margin-bottom: 100px;
+	margin-top: -50px;
+	margin-left: 120px;
+}
+
+.education h3
+{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+.education p
+{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	margin-right: 130px;
+}*/
+
 .education 
 {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: #131316;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .education h1
 {
 	margin-bottom: 15px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .education-box
 {
-	background: #f9f9f9;
+	background: #131316;
+	font-family: 'Poppins', sans-serif;
 	padding: 10px;
 	margin-top: 20px;
 	border-top-right-radius: 50px;
@@ -517,6 +558,9 @@ body
 {
 	margin: 0 10px;
 	font-size: 20px; 
+	color: #fff; 
+
+
 }
 
 .education-box span
@@ -524,19 +568,22 @@ body
 	margin: 3px;
 	font-size: 20px;
 	font-weight: bold;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .education-box p
 {
 	font-size: 15px;
 	margin-top: 20px;
-	color: #777;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .education-box:hover
 {
-	background: #000;
-	color: #fff;
+	background: #c0c1c0;
+	color: #131316;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
 	border-top-left-radius: 50px;
@@ -546,25 +593,44 @@ body
 
 .education-box:hover p
 {
-	color: #fff;
+	color: #131316;
 }
 
+.education-box .fa:hover p
+{
+	color: #131316;
+}
+
+.education-box:hover p
+{
+	color: #131316;
+}
+
+.emory-img-area 
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 /*-----Contact Me---------*/
 
 .contact 
 {
 	padding-top: 50px;
-	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/blackbackground.jpg");
+	background: #2c2c36;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	color: #fff;
+	font-family: 'Poppins', sans-serif;
 }
 
 .contact .row
 {
 	padding: 30px 0;
 	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .contact .col-md-4 .fa
@@ -601,18 +667,18 @@ body
 
 .footer
 {
-	background: #000;
+	background: #2c2c36;
 	height: 50px;
 	margin-top: 50px;
 	color: #fff;
 	padding-top: 10px;
 }
 
-.fa-heart-o
+/*.fa-heart-o
 {
 	color: red;
 }
-
+*/
 /*-----------icons-----------*/
 
 .social-icons
