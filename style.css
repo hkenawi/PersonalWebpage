@@ -11,7 +11,7 @@ body
 #header
 {
 	height: 100vh;
-	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/tennis.jpg");
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/trophy.jpg");
 	background-size: cover;
 	/*background-attachment: fixed;*/
 	/*background-position: center;*/
@@ -84,14 +84,15 @@ body
 .user-box h1
 {
 	color: #ffff;
-	/*font-weight: bold;*/
-	/*font-style: italic;*/
 	margin: 10px;
 	font-family: 'Poppins', sans-serif;
 	float: right; 
 	margin-left: 1000px;
-	font-size: 50px; 
+	font-size: 40px; 
 	letter-spacing: 5px; 
+	position: relative;
+	left: 75px;
+	bottom: 185px; 
 }
 
 .user-box p
@@ -114,23 +115,40 @@ body
 .profile-img
 {
 	height: 500px;
-	display: block;
-	margin-bottom: 100px;
+	display: relative;
+	margin-bottom: 180px;
 	margin-top: -50px;
-	margin-left: 120px;
+	margin-left: 50px;
+
+}
+
+.about h1
+{
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	bottom: 80px;
+	left: 350px;
+	letter-spacing: 5px;
+	font-weight: bold; 
 }
 
 .about h3
 {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
+	position: relative;
+	top: 25px;
+	left: 250px; 
 }
 
 .about p
 {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
-	margin-right: 130px;
+	position: relative;
+	top: 25px; 
+	right: 30px; 
 }
 
 
@@ -200,11 +218,13 @@ body
 	clear: both;
 }
 
-.content{
+.content
+{
 	padding-bottom: 20px;
 }
 
-.timeline ul li:nth-child(odd):before{
+.timeline ul li:nth-child(odd):before
+{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -216,7 +236,8 @@ body
 	box-shadow: 0 0 0 3px #888 0.2;
 }
 
-.timeline ul li:nth-child(even):before{
+.timeline ul li:nth-child(even):before
+{
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -228,14 +249,16 @@ body
 	box-shadow: 0 0 0 3px #888 0.2;
 }
 
-.timeline ul li h3{
+.timeline ul li h3
+{
 	margin: 0;
 	padding: 0;
 	font-size: 22px; 
 	font-family: 'Poppins', sans-serif;
 }
 
-.timeline ul li p{
+.timeline ul li p
+{
 	margin: 10px 0 0;
 	padding: 0;
 	font-size: 12px; 
@@ -329,6 +352,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	padding-top: 25px;
 }
 /*-----Contact Me---------*/
 
