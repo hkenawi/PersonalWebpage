@@ -1,9 +1,9 @@
 body
 {
-	margin: 0;
-	padding: 0;
 	font-family: 'Poppins', sans-serif;
 	background-color: #131316;
+	padding: 0px;
+	margin: 0px;
 }
 
 /*----------header-----------*/
@@ -13,8 +13,6 @@ body
 	height: 100vh;
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/trophy.jpg");
 	background-size: cover;
-	/*background-attachment: fixed;*/
-	/*background-position: center;*/
 }
 
 .nav-bar
@@ -27,9 +25,6 @@ body
 .navbar
 {
 	background-color: #0a0a0b;
-	/*bottom: 750px;*/
-	/*right: 900px; */
-	/*position: sticky; */
 }
 
 .nav-bar .fa-bars
@@ -49,15 +44,12 @@ body
 	text-align: left;
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 5px; 
-	/*font-weight: bold;*/
 	font-size: 15px; 
 }
 
 .nav-link
 {
 	color: #fff !important;
-	/*left: 230px;*/
-	/*top: 20px;*/
 }
 
 .nav-item
@@ -72,14 +64,6 @@ body
 	transform: translate(-50%, -50%);
 	position: absolute;
 }
-
-/*.user-box img*/
-/*{
-	/*border-radius: 50%;*/
-	/*width: 250px;*/
-	/*making the profile pic a circle*/
-	/*border: 2px solid #111212;*/
-/*}*/
 
 .user-box h1
 {
@@ -116,10 +100,10 @@ body
 {
 	height: 500px;
 	display: relative;
+	position: relative;
 	margin-bottom: 180px;
 	margin-top: -50px;
-	margin-left: 50px;
-
+	margin-left: -125px;
 }
 
 .about h1
@@ -128,7 +112,6 @@ body
 	font-family: 'Poppins', sans-serif;
 	position: relative;
 	bottom: 80px;
-	left: 350px;
 	letter-spacing: 5px;
 	font-weight: bold; 
 }
@@ -138,8 +121,9 @@ body
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	position: relative;
-	top: 25px;
-	left: 250px; 
+	bottom: 25px;
+	left: 475px; 
+	width: 50%;
 }
 
 .about p
@@ -147,8 +131,8 @@ body
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	position: relative;
-	top: 25px; 
-	right: 30px; 
+	bottom: 25px; 
+	left: 125px; 
 }
 
 
@@ -167,6 +151,7 @@ body
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold; 
 	padding-bottom: 20px; 
+	letter-spacing: 5px; 
 }
 
 .work h3
@@ -282,6 +267,7 @@ body
 	margin-bottom: 15px;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
+	letter-spacing: 5px; 
 }
 
 .education-box
@@ -365,6 +351,7 @@ body
 	background-position: center;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
+	letter-spacing: 5px; 
 }
 
 .contact .row
@@ -414,45 +401,3 @@ body
 	color: #fff;
 	padding-top: 10px;
 }
-
-/*.fa-heart-o
-{
-	color: red;
-}
-*/
-/*-----------icons-----------*/
-
-.social-icons
-{
-	top: 50%;
-	transform: translateY(-50%);
-	position: sticky;
-	z-index: 1;
-	width: 80px;
-}
-
-.social-icons ul
-{
-	padding: initial;
-}
-
-.social-icons ul li
-{
-	height: 40px;
-	width: 40px;
-	list-style-type: none;
-	padding-left: 12px;
-	padding-top: 6px;
-	margin-top: 5px;
-	color: #fff;
-	background: #000;
-}
-
-.social-icons ul li:hover
-{
-	padding-left: 30px;
-	width: 80px;
-	transition: 1s;
-}
-
-
