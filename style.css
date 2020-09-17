@@ -6,6 +6,8 @@ body
 	margin: 0px;
 }
 
+
+
 /*----------header-----------*/
 
 #header
@@ -13,6 +15,14 @@ body
 	height: 100vh;
 	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("img/trophy.jpg");
 	background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+    	height: 100vh;
+		background: #2c2c36;
+		background-size: cover;
+    }
 }
 
 .nav-bar
