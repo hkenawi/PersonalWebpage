@@ -127,6 +127,13 @@ body
 	margin-left: -125px;
 }
 
+@media screen and (max-width: 480px) {
+    .profile-img {
+    	max-width: 50%;
+    	height: auto; 
+    }
+}
+
 .about h1
 {
 	color: #fff;
