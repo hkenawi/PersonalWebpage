@@ -89,10 +89,21 @@ body
 	bottom: 185px; 
 }
 
-.user-box p
+/*.user-box p
 {
 	color: #ffff;
 	margin: 10px;
+}
+*/
+
+@media screen and (max-width: 480px) {
+    .user-box h1 {
+    	text-align: center;
+    	color: #ffff;
+    	font-family: 'Poppins', sans-serif;
+    	font-size: 40px; 
+		letter-spacing: 5px; 
+    }
 }
 
 /*----------------ABOUT------------------*/
