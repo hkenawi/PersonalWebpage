@@ -155,6 +155,18 @@ body
 	font-weight: bold; 
 }
 
+@media screen and (max-width: 480px) {
+	.about h1 {
+		color: #fff;
+		font-family: 'Poppins', sans-serif;
+		position: relative;
+		bottom: 120px;
+		letter-spacing: 5px;
+		font-weight: bold; 
+	}
+
+}
+
 .about h3
 {
 	color: #fff;
@@ -193,9 +205,9 @@ body
 	.about p {
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
-		position: relative;
-		/*bottom: 25px; 
-		left: 125px; */
+		position: absolute;
+		bottom: 75px; 
+		right: 150px; 
 	}
 }
 
