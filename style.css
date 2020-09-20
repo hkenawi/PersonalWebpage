@@ -281,6 +281,14 @@ body
 	clear: both;
 }
 
+@media screen and (max-width: 480px) {
+	.timeline ul li:nth-child(even){
+		float: right;
+		text-align: left;
+		clear: both;
+	}
+}
+
 .content
 {
 	padding-bottom: 20px;
