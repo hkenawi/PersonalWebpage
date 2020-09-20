@@ -160,7 +160,7 @@ body
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		position: relative;
-		bottom: 675px;
+		bottom: 725px;
 		letter-spacing: 5px;
 		font-weight: bold; 
 	}
@@ -207,7 +207,7 @@ body
 		font-family: 'Poppins', sans-serif;
 		position: absolute;
 		bottom: 125px; 
-		left: 150px; 
+		right: 450px; 
 		/*height: 50%;*/
 		width: 100%;
 	}
