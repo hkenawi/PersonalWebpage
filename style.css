@@ -252,6 +252,16 @@ body
 	padding: 40px 0; 
 }
 
+@media screen and (max-width: 480px) {
+	.timeline{
+		position: relative;
+		margin: 50px auto;
+		width: 1000px;
+		padding: 40px 0; 
+		bottom: 100px;
+	}
+}
+
 .timeline ul{
 	margin: 0;
 	padding: 0;
