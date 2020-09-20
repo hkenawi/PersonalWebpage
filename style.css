@@ -184,6 +184,9 @@ body
 	position: relative;
 	bottom: 25px; 
 	left: 125px; 
+	padding:16px 24px 20px 24px; 
+	background-color: #38383d; 
+	border: #131316 2px;
 }
 
 @media screen and (max-width: 480px) {
