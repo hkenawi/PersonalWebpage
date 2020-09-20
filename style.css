@@ -206,10 +206,10 @@ body
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		position: absolute;
-		bottom: 250px; 
-		right: 650px; 
+		bottom: 150px; 
+		right: 150px; 
 		/*height: 50%;*/
-		width: 95%;
+		width: 100%;
 	}
 }
 
