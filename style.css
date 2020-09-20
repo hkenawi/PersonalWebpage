@@ -162,7 +162,7 @@ body
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		position: relative;
-		bottom: 75px;
+		bottom: 110px;
 		letter-spacing: 5px;
 		font-weight: bold; 
 	}
@@ -208,10 +208,10 @@ body
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		position: relative;
-		bottom: 75px; 
+		bottom: 100px; 
 		right: 1000px; 
 		/*height: 50%;*/
-		width: 105%;
+		width: 100%;
 	}
 }
 
