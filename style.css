@@ -113,6 +113,8 @@ body
     	font-family: 'Poppins', sans-serif;
     	font-size: 40px; 
 		letter-spacing: 5px; 
+		top: 500px;
+		right: 500px; 
     }
 }
 
@@ -160,7 +162,7 @@ body
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
 		position: relative;
-		bottom: 725px;
+		bottom: 175px;
 		letter-spacing: 5px;
 		font-weight: bold; 
 	}
@@ -278,6 +280,7 @@ body
 		height: 100%;
 		background: #c5c5c5;*/
 		display: none; 
+		list-style-type: none;
 	}
 
 
