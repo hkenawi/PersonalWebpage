@@ -21,7 +21,7 @@ body
     #header {
     	height: 100vh;
 		background: #131316;
-		background-size: cover;
+		/*background-size: cover;*/
     }
 }
 
