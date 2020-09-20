@@ -129,7 +129,14 @@ body
 	background: #131316;
 }
 
-
+@media screen and (max-width: 480px) {
+	.about {
+		padding-top: 100px;
+		margin-bottom: -130px;
+		background: #131316;
+		width: 50%;
+	}
+}
 
 .profile-img
 {
