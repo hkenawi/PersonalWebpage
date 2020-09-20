@@ -276,6 +276,17 @@ body
 	line-height: normal;
 }
 
+@media screen and (max-width: 480px) {
+	.timeline ul li {
+		list-style: none;
+		position: relative;
+		width: 30%;
+		padding: 20px 40px;
+		box-sizing: border-box;
+		line-height: normal;
+	}
+}
+
 
 .timeline:before{
 	content: '';
