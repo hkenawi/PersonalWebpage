@@ -212,9 +212,11 @@ body
 		position: relative;
 		bottom: 125px; 
 		right: 1000px; 
-		left: -75px;
+		left: -25px;
 		/*height: 50%;*/
 		width: 100%;
+		background-color: #131316; 
+		border: #131316 2px;
 	}
 }
 
