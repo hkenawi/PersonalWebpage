@@ -283,7 +283,7 @@ body
 
 @media screen and (max-width: 480px) {
 	.timeline ul li:nth-child(even){
-		float: right;
+		float: left;
 		text-align: left;
 		clear: both;
 	}
