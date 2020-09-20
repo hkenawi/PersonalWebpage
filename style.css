@@ -350,6 +350,22 @@ body
 	box-shadow: 0 0 0 3px #888 0.2;
 }
 
+@media screen and (max-width: 480px) {
+	.timeline ul li:nth-child(odd):before{
+		content: '';
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		background: #666;
+		border-radius: 50%;
+		top: 24px;
+		right: -6px; 
+		box-shadow: 0 0 0 3px #888 0.2;
+		display: none;
+	}
+
+}
+
 .timeline ul li:nth-child(even):before
 {
 	content: '';
@@ -361,6 +377,22 @@ body
 	top: 24px;
 	left: -4px; 
 	box-shadow: 0 0 0 3px #888 0.2;
+}
+
+@media screen and (max-width: 480px) {
+	.timeline ul li:nth-child(even):before{
+		content: '';
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		background: #666;
+		border-radius: 50%;
+		top: 24px;
+		right: -6px; 
+		box-shadow: 0 0 0 3px #888 0.2;
+		display: none;
+	}
+
 }
 
 .timeline ul li h3
@@ -378,10 +410,6 @@ body
 	font-size: 12px; 
 	color: #f9f9f9; 
 	font-family: 'Poppins', sans-serif;
-}
-
-.image-work {
-		display: none;
 }
 
 /*-----------------Education-------------------*/
